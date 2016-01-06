@@ -4,10 +4,11 @@ using System.Collections;
 public class PlayerMouse : MonoBehaviour {
 
     Vector3 mousePosition;
+    private Player player;
 
 	// Use this for initialization
 	void Start () {
-
+        player = GameObject.Find("Player").GetComponent<Player>();
 	}
 	
 	// Update is called once per frame
@@ -15,24 +16,27 @@ public class PlayerMouse : MonoBehaviour {
         Vector3 mouseScreenPos = Input.mousePosition;
         mouseScreenPos.z = 2;
 	    mousePosition = Camera.main.ScreenToWorldPoint(mouseScreenPos);
-        transform.position = mousePosition;
+        if (player.livesGetter() > 0)
+        {
+            transform.position = mousePosition;
+        }
 
         //Player Boundaries
-        if (transform.position.y < 0.1f)
+        if (transform.position.y < 1.1f && player.livesGetter() > 0)
         {
-            transform.position = new Vector3(transform.position.x,0.1f,transform.position.z);
+            transform.position = new Vector3(transform.position.x,1.1f,transform.position.z);
         }
-        if (transform.position.y > 2f)
+        if (transform.position.y > 2.9f)
         {
-            transform.position = new Vector3(transform.position.x, 2f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, 2.9f, transform.position.z);
         }
-        if (transform.position.x < -1.7f)
+        if (transform.position.x < -1.6f)
         {
-            transform.position = new Vector3(-1.7f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-1.6f, transform.position.y, transform.position.z);
         }
-        if (transform.position.x > 1.7f)
+        if (transform.position.x > 1.6f)
         {
-            transform.position = new Vector3(1.7f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(1.6f, transform.position.y, transform.position.z);
         }
     }
 }

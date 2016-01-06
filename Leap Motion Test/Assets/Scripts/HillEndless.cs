@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System;
 
-public class FloorEndless : MonoBehaviour
-{
+public class HillEndless : MonoBehaviour {
+
     [SerializeField]
     private float speed;
     private float tempFloat;

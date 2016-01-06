@@ -4,49 +4,71 @@ using System.Collections;
 public class PlayerLeap : MonoBehaviour {
 
     private GameObject leapObject;
-    private float rotationValueLeft = 0;
-    private float rotationValueRight = 0;
-
-	void Start () {
+    private float rotationLeft = 0;
+    private float rotationRight = 0;
+    private float rotationSpeed = 1.5f;
+    private float rotationRange = 0.05f;
 	
-	}
-	
-	void Update () {
+	void FixedUpdate () {
         //Transform Rotation Back = Rechts
         //Transform Rotation Forward = Links
-        transform.Rotate(Vector3.back * rotationValueRight);
-        transform.Rotate(Vector3.forward * rotationValueLeft);
+        transform.Rotate(Vector3.back * rotationRight);
+        transform.Rotate(Vector3.forward * rotationLeft);
         leapObject = GameObject.Find("InvisHandObject(Clone)");
-        /*
-        if (leapObject.transform.position.x < transform.position.x)
-        {
-            rotationValueLeft = 1;
-        }
-        else
-        {
-            rotationValueLeft = 0;
-        }
-        if (leapObject.transform.position.x > transform.position.x)
-        {
-            rotationValueRight = 0;
-        }
-        else
-        {
-            rotationValueRight = 0;
-        }
-        */
+
+        //Check if the hand has been found by the Leap sensor
         if (leapObject != null)
         {
+            //Rotate the player once going left/right
+            Vector3 newPos = leapObject.transform.position - transform.position;
+            newPos.x = Mathf.Round(newPos.x * 100f) / 100f;
+            if (newPos.x > rotationRange && transform.rotation.z > -0.2f)
+            {
+                rotationRight = rotationSpeed;
+            }
+            else
+            {
+                rotationRight = 0;
+            }
+            if (newPos.x < -rotationRange && transform.rotation.z < 0.2f)
+            {
+                rotationLeft = rotationSpeed;
+            }
+            else
+            {
+                rotationLeft = 0;
+            }
+
+            //Rotate back to original
+            if (newPos.x < rotationRange && newPos.x >= 0f && transform.rotation.z < 0f)
+            {
+                rotationLeft = rotationSpeed;
+            }
+            if (newPos.x > -rotationRange && newPos.x <= 0f && transform.rotation.z > 0f)
+            {
+                rotationRight = rotationSpeed;
+            }
+
+            //Set Player object to the invisible Leap Object
             transform.position = leapObject.transform.position;
         }
-        //Player Boundaries
-        if (transform.position.y < 0.1f)
+        else
         {
-            transform.position = new Vector3(transform.position.x, 0.1f, transform.position.z);
+            //Rotate player to default once Leap can't find a hand
+            rotationLeft = 0;
+            rotationRight = 0;
+            transform.rotation = Quaternion.identity;
+            //transform.rotation = Quaternion.Euler(0, 180, 0);
+
         }
-        if (transform.position.y > 2f)
+        //Player Boundaries
+        if (transform.position.y < 1.1f)
         {
-            transform.position = new Vector3(transform.position.x, 2f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, 1.1f, transform.position.z);
+        }
+        if (transform.position.y > 2.9f)
+        {
+            transform.position = new Vector3(transform.position.x, 2.9f, transform.position.z);
         }
         if (transform.position.x < -1.7f)
         {
