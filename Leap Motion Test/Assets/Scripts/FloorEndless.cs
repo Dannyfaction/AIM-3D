@@ -12,11 +12,11 @@ public class FloorEndless : MonoBehaviour
     {
         tempFloat = transform.position.z;
     }
-
+    
     void FixedUpdate()
     {
         MoveDown();
-        if (transform.position.z > 35f)
+        if (transform.position.z > 35)
         {
             MoveUp();
         }
@@ -30,6 +30,6 @@ public class FloorEndless : MonoBehaviour
 
     private void MoveUp()
     {
-        tempFloat = -15f;
+        tempFloat = -5f;
     }
 }

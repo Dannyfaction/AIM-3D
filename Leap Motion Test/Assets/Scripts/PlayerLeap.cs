@@ -6,10 +6,16 @@ public class PlayerLeap : MonoBehaviour {
     private GameObject leapObject;
     private float rotationLeft = 0;
     private float rotationRight = 0;
-    private float rotationSpeed = 1.5f;
+    private float rotationSpeed = 5f;
     private float rotationRange = 0.05f;
-	
-	void FixedUpdate () {
+    private Player player;
+
+    void Start()
+    {
+        player = GameObject.Find("Player").GetComponent<Player>();
+    }
+
+    void FixedUpdate() {
         //Transform Rotation Back = Rechts
         //Transform Rotation Forward = Links
         transform.Rotate(Vector3.back * rotationRight);
@@ -17,12 +23,12 @@ public class PlayerLeap : MonoBehaviour {
         leapObject = GameObject.Find("InvisHandObject(Clone)");
 
         //Check if the hand has been found by the Leap sensor
-        if (leapObject != null)
+        if (leapObject != null && player.livesGetter() > 0)
         {
             //Rotate the player once going left/right
             Vector3 newPos = leapObject.transform.position - transform.position;
             newPos.x = Mathf.Round(newPos.x * 100f) / 100f;
-            if (newPos.x > rotationRange && transform.rotation.z > -0.2f)
+            if (newPos.x > rotationRange && transform.rotation.z > -0.3f)
             {
                 rotationRight = rotationSpeed;
             }
@@ -30,7 +36,7 @@ public class PlayerLeap : MonoBehaviour {
             {
                 rotationRight = 0;
             }
-            if (newPos.x < -rotationRange && transform.rotation.z < 0.2f)
+            if (newPos.x < -rotationRange && transform.rotation.z < 0.3f)
             {
                 rotationLeft = rotationSpeed;
             }
@@ -50,7 +56,10 @@ public class PlayerLeap : MonoBehaviour {
             }
 
             //Set Player object to the invisible Leap Object
+            //if (player.livesGetter() > 0)
+            //{
             transform.position = leapObject.transform.position;
+            //}
         }
         else
         {
@@ -62,21 +71,24 @@ public class PlayerLeap : MonoBehaviour {
 
         }
         //Player Boundaries
-        if (transform.position.y < 1.1f)
+        if (player.livesGetter() > 0)
         {
-            transform.position = new Vector3(transform.position.x, 1.1f, transform.position.z);
-        }
-        if (transform.position.y > 2.9f)
-        {
-            transform.position = new Vector3(transform.position.x, 2.9f, transform.position.z);
-        }
-        if (transform.position.x < -1.7f)
-        {
-            transform.position = new Vector3(-1.7f, transform.position.y, transform.position.z);
-        }
-        if (transform.position.x > 1.7f)
-        {
-            transform.position = new Vector3(1.7f, transform.position.y, transform.position.z);
+            if (transform.position.y < 0.2f)
+            {
+                transform.position = new Vector3(transform.position.x, 0.2f, transform.position.z);
+            }
+            if (transform.position.y > 4f)
+            {
+                transform.position = new Vector3(transform.position.x, 4f, transform.position.z);
+            }
+            if (transform.position.x < -4.5f)
+            {
+                transform.position = new Vector3(-4.5f, transform.position.y, transform.position.z);
+            }
+            if (transform.position.x > 4.5f)
+            {
+                transform.position = new Vector3(4.5f, transform.position.y, transform.position.z);
+            }
         }
     }
 }

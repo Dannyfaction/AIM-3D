@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: d2103f27fa40e944b977b4d5d6a712ca
+timeCreated: 1448889221
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Moose_Animations_Atack_0
+    21300002: Moose_Animations_Atack_1
+    21300004: Moose_Animations_Atack_2
+    21300006: Moose_Animations_Atack_3
+    21300008: Moose_Animations_Atack_4
+    21300010: Moose_Animations_Atack_5
+    21300012: Moose_Animations_Atack_6
+    21300014: Moose_Animations_Atack_7
+    21300016: Moose_Animations_Atack_8
+    21300018: Moose_Animations_Atack_9
+    21300020: Moose_Animations_Atack_10
+    21300022: Moose_Animations_Atack_11
+    21300024: Moose_Animations_Atack_12
+    21300026: Moose_Animations_Atack_13
+    21300028: Moose_Animations_Atack_14
+    21300030: Moose_Animations_Atack_15
+    21300032: Moose_Animations_Atack_16
+    21300034: Moose_Animations_Atack_17
+    21300036: Moose_Animations_Atack_18
+    21300038: Moose_Animations_Atack_19
+    21300040: Moose_Animations_Atack_20
+    21300042: Moose_Animations_Atack_21
+    21300044: Moose_Animations_Atack_22
+    21300046: Moose_Animations_Atack_23
+    21300048: Moose_Animations_Atack_24
+    21300050: Moose_Animations_Atack_25
+    21300052: Moose_Animations_Atack_26
+    21300054: Moose_Animations_Atack_27
+    21300056: Moose_Animations_Atack_28
+    21300058: Moose_Animations_Atack_29
+    21300060: Moose_Animations_Atack_30
+    21300062: Moose_Animations_Atack_31
+    21300064: Moose_Animations_Atack_32
+    21300066: Moose_Animations_Atack_33
+    21300068: Moose_Animations_Atack_34
+    21300070: Moose_Animations_Atack_35
+    21300072: Moose_Animations_Atack_36
+    21300074: Moose_Animations_Atack_37
+    21300076: Moose_Animations_Atack_38
+    21300078: Moose_Animations_Atack_39
+    21300080: Moose_Animations_Atack_40
+    21300082: Moose_Animations_Atack_41
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Moose_Animations_Atack_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4501
+        width: 717
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_1
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 4503
+        width: 720
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_2
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 4504
+        width: 722
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_3
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 4506
+        width: 722
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_4
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 4508
+        width: 724
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4012
+        width: 724
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 4013
+        width: 727
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_7
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 4010
+        width: 729
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_8
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 4010
+        width: 730
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_9
+      rect:
+        serializedVersion: 2
+        x: 2906
+        y: 4008
+        width: 732
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3514
+        width: 731
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_11
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 3512
+        width: 734
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_12
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 3512
+        width: 735
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_13
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 3510
+        width: 738
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_14
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 3507
+        width: 739
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3005
+        width: 738
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_16
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 3004
+        width: 740
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_17
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 3004
+        width: 741
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_18
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 3002
+        width: 742
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_19
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 2999
+        width: 745
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2491
+        width: 747
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_21
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 2489
+        width: 747
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_22
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 2489
+        width: 748
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_23
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 2487
+        width: 749
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_24
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 2485
+        width: 752
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1984
+        width: 738
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_26
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1991
+        width: 733
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_27
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1994
+        width: 725
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_28
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1986
+        width: 719
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_29
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 1979
+        width: 715
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_30
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1469
+        width: 713
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_31
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1464
+        width: 710
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_32
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1456
+        width: 705
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_33
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 1451
+        width: 702
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_34
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 1444
+        width: 696
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 912
+        width: 700
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_36
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 917
+        width: 704
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_37
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 922
+        width: 705
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_38
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 927
+        width: 710
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_39
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 929
+        width: 712
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_40
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 402
+        width: 713
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Atack_41
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 407
+        width: 717
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

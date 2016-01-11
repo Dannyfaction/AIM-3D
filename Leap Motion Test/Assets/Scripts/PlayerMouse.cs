@@ -22,21 +22,21 @@ public class PlayerMouse : MonoBehaviour {
         }
 
         //Player Boundaries
-        if (transform.position.y < 1.1f && player.livesGetter() > 0)
+        if (transform.position.y < 0.2f)
         {
-            transform.position = new Vector3(transform.position.x,1.1f,transform.position.z);
+            transform.position = new Vector3(transform.position.x, 0.2f, transform.position.z);
         }
-        if (transform.position.y > 2.9f)
+        if (transform.position.y > 4f)
         {
-            transform.position = new Vector3(transform.position.x, 2.9f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, 4f, transform.position.z);
         }
-        if (transform.position.x < -1.6f)
+        if (transform.position.x < -4.5f)
         {
-            transform.position = new Vector3(-1.6f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-4.5f, transform.position.y, transform.position.z);
         }
-        if (transform.position.x > 1.6f)
+        if (transform.position.x > 4.5f)
         {
-            transform.position = new Vector3(1.6f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(4.5f, transform.position.y, transform.position.z);
         }
     }
 }

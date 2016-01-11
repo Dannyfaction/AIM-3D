@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: 8a26da547dd57f8438d4834e1cd929a5
+timeCreated: 1448889180
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Moose_Animations_Idle_0
+    21300002: Moose_Animations_Idle_1
+    21300004: Moose_Animations_Idle_2
+    21300006: Moose_Animations_Idle_3
+    21300008: Moose_Animations_Idle_4
+    21300010: Moose_Animations_Idle_5
+    21300012: Moose_Animations_Idle_6
+    21300014: Moose_Animations_Idle_7
+    21300016: Moose_Animations_Idle_8
+    21300018: Moose_Animations_Idle_9
+    21300020: Moose_Animations_Idle_10
+    21300022: Moose_Animations_Idle_11
+    21300024: Moose_Animations_Idle_12
+    21300026: Moose_Animations_Idle_13
+    21300028: Moose_Animations_Idle_14
+    21300030: Moose_Animations_Idle_15
+    21300032: Moose_Animations_Idle_16
+    21300034: Moose_Animations_Idle_17
+    21300036: Moose_Animations_Idle_18
+    21300038: Moose_Animations_Idle_19
+    21300040: Moose_Animations_Idle_20
+    21300042: Moose_Animations_Idle_21
+    21300044: Moose_Animations_Idle_22
+    21300046: Moose_Animations_Idle_23
+    21300048: Moose_Animations_Idle_24
+    21300050: Moose_Animations_Idle_25
+    21300052: Moose_Animations_Idle_26
+    21300054: Moose_Animations_Idle_27
+    21300056: Moose_Animations_Idle_28
+    21300058: Moose_Animations_Idle_29
+    21300060: Moose_Animations_Idle_30
+    21300062: Moose_Animations_Idle_31
+    21300064: Moose_Animations_Idle_32
+    21300066: Moose_Animations_Idle_33
+    21300068: Moose_Animations_Idle_34
+    21300070: Moose_Animations_Idle_35
+    21300072: Moose_Animations_Idle_36
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Moose_Animations_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3597
+        width: 721
+        height: 497
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 3592
+        width: 718
+        height: 501
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 3591
+        width: 718
+        height: 502
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 3593
+        width: 717
+        height: 500
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 2949
+        y: 3591
+        width: 716
+        height: 502
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3086
+        width: 721
+        height: 501
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 3085
+        width: 718
+        height: 502
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 3083
+        width: 714
+        height: 504
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 3080
+        width: 717
+        height: 507
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 2967
+        y: 3080
+        width: 714
+        height: 507
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2567
+        width: 712
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 2569
+        width: 712
+        height: 508
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 2568
+        width: 716
+        height: 507
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2565
+        width: 714
+        height: 510
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 2563
+        width: 715
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2046
+        width: 713
+        height: 511
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2056
+        width: 715
+        height: 505
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2056
+        width: 716
+        height: 505
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 2061
+        width: 716
+        height: 500
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 2064
+        width: 718
+        height: 499
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1544
+        width: 722
+        height: 504
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1549
+        width: 722
+        height: 499
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1549
+        width: 719
+        height: 499
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1551
+        width: 718
+        height: 498
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1553
+        width: 721
+        height: 495
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1055
+        width: 721
+        height: 493
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1056
+        width: 722
+        height: 496
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1059
+        width: 724
+        height: 493
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 1056
+        width: 722
+        height: 496
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 1061
+        width: 725
+        height: 491
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 567
+        width: 728
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 569
+        width: 726
+        height: 488
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 569
+        width: 726
+        height: 487
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 567
+        width: 728
+        height: 489
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 567
+        width: 731
+        height: 484
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 723
+        height: 488
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Moose_Animations_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 75
+        width: 722
+        height: 494
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
