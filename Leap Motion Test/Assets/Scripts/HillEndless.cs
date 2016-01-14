@@ -7,13 +7,17 @@ public class HillEndless : MonoBehaviour {
     private float speed;
     private float tempFloat;
 
+    private DistanceCounter distanceCounter;
+
     void Start()
     {
+        distanceCounter = GameObject.Find("DistanceCounter").GetComponent<DistanceCounter>();
         tempFloat = transform.position.z;
     }
 
     void FixedUpdate()
     {
+        speed = distanceCounter.Speed;
         MoveDown();
         if (transform.position.z > 35f)
         {
@@ -32,3 +36,9 @@ public class HillEndless : MonoBehaviour {
         tempFloat = -15f;
     }
 }
+
+
+
+
+
+

@@ -12,12 +12,16 @@ public class Player : MonoBehaviour
     private float xScale = 0;
     private float yScale = 0;
     private int interval = 10;
-    private Vector3 playerUIPos;
+    private GameObject cameraObject;
+    private GameObject balloon;
 
     // Use this for initialization
     void Start()
     {
-        timerText = GameObject.Find("TimerText").GetComponent<Text>();
+        balloon = GameObject.Find("Balloon");
+        balloon.transform.position = transform.position;
+        cameraObject = GameObject.Find("Main Camera");
+        //timerText = GameObject.Find("TimerText").GetComponent<Text>();
         animator = GetComponent<Animator>();
     }
 
@@ -29,7 +33,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(interval-8);
+        Vector3 playerPosition = new Vector3(transform.position.x + 0.045f, transform.position.y + 0.35f, transform.position.z);
+        //Debug.Log(interval-8);
+        balloon.transform.position = Vector3.Lerp(balloon.transform.position, playerPosition, 4f * Time.fixedDeltaTime);
+        /*
         timer += Time.deltaTime;
         if ((Mathf.Round(timer * 100f) / 100f) == interval)
         {
@@ -43,9 +50,11 @@ public class Player : MonoBehaviour
         timerText.transform.localScale = new Vector3(xScale, yScale, 0f);
         //Debug.Log("Seconds: " + (Mathf.Round(timer * 100f) / 100f));
         timerText.text = "Fly Time: " + (Mathf.Round(timer * 100f) / 100f);
+        */
         float tempY = transform.position.y;
         if (lives <= 0)
         {
+            cameraObject.transform.rotation = Quaternion.Euler(20, 180, 0);
             tempY -= 0.015f;
             animator.SetBool("isDead", true);
             transform.position = new Vector3(transform.position.x, tempY, transform.position.z);

@@ -73,21 +73,21 @@ public class PlayerLeap : MonoBehaviour {
         //Player Boundaries
         if (player.livesGetter() > 0)
         {
-            if (transform.position.y < 0.2f)
+            if (transform.position.y < 0.4f)
             {
-                transform.position = new Vector3(transform.position.x, 0.2f, transform.position.z);
+                transform.position = new Vector3(transform.position.x, 0.4f, transform.position.z);
             }
-            if (transform.position.y > 4f)
+            if (transform.position.y > 3.65f)
             {
-                transform.position = new Vector3(transform.position.x, 4f, transform.position.z);
+                transform.position = new Vector3(transform.position.x, 3.65f, transform.position.z);
             }
-            if (transform.position.x < -4.5f)
+            if (transform.position.x < -3.9f)
             {
-                transform.position = new Vector3(-4.5f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(-3.9f, transform.position.y, transform.position.z);
             }
-            if (transform.position.x > 4.5f)
+            if (transform.position.x > 3.9f)
             {
-                transform.position = new Vector3(4.5f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(3.9f, transform.position.y, transform.position.z);
             }
         }
     }
