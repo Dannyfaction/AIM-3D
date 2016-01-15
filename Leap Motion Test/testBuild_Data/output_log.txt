@@ -1,0 +1,44 @@
+Mono path[0] = 'C:/Users/Danny/Documents/MediacollegeAmsterdam/Leerjaar 2/Periode 2/PRO/AIM/Leap Motion Test/testBuild_Data/Managed'
+Mono path[1] = 'C:/Users/Danny/Documents/MediacollegeAmsterdam/Leerjaar 2/Periode 2/PRO/AIM/Leap Motion Test/testBuild_Data/Mono'
+Mono config path = 'C:/Users/Danny/Documents/MediacollegeAmsterdam/Leerjaar 2/Periode 2/PRO/AIM/Leap Motion Test/testBuild_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Danny/Documents/MediacollegeAmsterdam/Leerjaar 2/Periode 2/PRO/AIM/Leap Motion Test/testBuild_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55176
+Multi-casting "[IP] 192.168.2.9 [Port] 55176 [Flags] 2 [Guid] 3320731466 [EditorId] 1568246750 [Version] 1048832 [Id] WindowsPlayer(Danny) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.2.9:55176]
+Initialize engine version: 5.3.0f4 (2524e04062b4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.518 seconds
+Platform assembly: C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Danny\Documents\MediacollegeAmsterdam\Leerjaar 2\Periode 2\PRO\AIM\Leap Motion Test\testBuild_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.672239 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 23f8 -> priority: 1 
+  Thread -> id: 2394 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.501072 ms
+System memory in use before: 20.1 MB.
+System memory in use after: 20.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 836.
+Total: 0.360494 ms (FindLiveObjects: 0.050888 ms CreateObjectMapping: 0.020526 ms MarkObjects: 0.251448 ms  DeleteObjects: 0.031217 ms)
+
