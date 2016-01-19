@@ -4,21 +4,17 @@ using System.Collections;
 public class Shake : MonoBehaviour
 {
 
-    // pakt positie van de camera
+    //Position of camera
     public Vector3 originalPos;
     private bool canShake = false;
     public int timer = 0;
 
-
-    void Awake()
-    {
-        
-    }
-
     void Update()
     {
+        //Shake the screen to the left and right, then back to its original position
         if (canShake)
         {
+            //Every frame
             timer++;
             switch (timer)
             {
@@ -41,7 +37,8 @@ public class Shake : MonoBehaviour
             }
         }
     }
-
+    
+    //Function which is called from other script to activate the shaking
     public void MakeShake()
     {
         originalPos = transform.position;

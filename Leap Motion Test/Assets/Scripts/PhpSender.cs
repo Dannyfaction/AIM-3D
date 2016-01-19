@@ -5,6 +5,8 @@ using System.Linq;
 
 public class PhpSender : MonoBehaviour {
 
+    //Script for sending the name and score to online databse
+
 	//Made By Danny Kruiswijk
 
 	private DistanceCounter scoreKeeper;
@@ -15,6 +17,7 @@ public class PhpSender : MonoBehaviour {
 	private GameObject nameObject;
 	
 	void Awake () {
+        //Don't destroy this object on scene change so we can still use it in leaderboard screen
 		DontDestroyOnLoad (transform.gameObject);
 		nameObject = GameObject.Find ("Nameholder");
 		sender = nameObject.GetComponent<Menu> ();
@@ -36,9 +39,11 @@ public class PhpSender : MonoBehaviour {
         tempName = sender.nameGetter();
         scoreKeeper = GameObject.Find("DistanceCounter").GetComponent<DistanceCounter>();
         tempScore = scoreKeeper.scoreGetter ();
+        //Puts the name and score into 1 line
         string scorestring = (tempName + "," + tempScore.ToString());
 		WWWForm score = new WWWForm();
 		score.AddField("score", scorestring);
+        //Where the databse is hosted
 		WWW w = new WWW("http://19083.hosts.ma-cloud.nl/aim3d/phpscript.php", score);
 		StartCoroutine(WaitForRequest(w));
 	}

@@ -6,6 +6,8 @@ using System.Linq;
 
 public class LeaderboardScoreGetter : MonoBehaviour {
 
+    //Script for putting the score from online database on screen
+
 	//Made By Danny Kruiswijk
 	
 	private Text nameBoard;
@@ -13,7 +15,9 @@ public class LeaderboardScoreGetter : MonoBehaviour {
 	private GameObject nameObject;
 	private GameObject scoreObject;
 	private PhpSender sender;
+    //Make new list of scores
 	private List<string> scorelist = new List<string>();
+    //Empty String
 	private string displayName = "";
 	private string displayScore = "";
 	

@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PlayerLeap : MonoBehaviour {
 
+    //The script for player movement with the Leap Hardware
+
     private GameObject leapObject;
     private float rotationLeft = 0;
     private float rotationRight = 0;
@@ -16,8 +18,6 @@ public class PlayerLeap : MonoBehaviour {
     }
 
     void FixedUpdate() {
-        //Transform Rotation Back = Rechts
-        //Transform Rotation Forward = Links
         transform.Rotate(Vector3.back * rotationRight);
         transform.Rotate(Vector3.forward * rotationLeft);
         leapObject = GameObject.Find("InvisHandObject(Clone)");
@@ -56,10 +56,7 @@ public class PlayerLeap : MonoBehaviour {
             }
 
             //Set Player object to the invisible Leap Object
-            //if (player.livesGetter() > 0)
-            //{
             transform.position = leapObject.transform.position;
-            //}
         }
         else
         {
@@ -67,8 +64,6 @@ public class PlayerLeap : MonoBehaviour {
             rotationLeft = 0;
             rotationRight = 0;
             transform.rotation = Quaternion.identity;
-            //transform.rotation = Quaternion.Euler(0, 180, 0);
-
         }
         //Player Boundaries
         if (player.livesGetter() > 0)

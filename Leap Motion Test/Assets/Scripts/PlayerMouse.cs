@@ -3,18 +3,19 @@ using System.Collections;
 
 public class PlayerMouse : MonoBehaviour {
 
+    //This script is only used when the player doesn't have Leap Motion Hardware
+
     Vector3 mousePosition;
     private Player player;
 
-	// Use this for initialization
 	void Start () {
         player = GameObject.Find("Player").GetComponent<Player>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
         Vector3 mouseScreenPos = Input.mousePosition;
         mouseScreenPos.z = 2;
+        //Set player to mouse position
 	    mousePosition = Camera.main.ScreenToWorldPoint(mouseScreenPos);
         if (player.livesGetter() > 0)
         {
