@@ -5,7 +5,6 @@ public class DistanceCounter : MonoBehaviour {
 
     private float spawningSpeed = 3;
     private int distance = -10;
-    private TextMesh distanceText;
     private GameObject balloonObject;
     private float interval = 100;
     private float xScale = 0f;
@@ -19,7 +18,6 @@ public class DistanceCounter : MonoBehaviour {
         DontDestroyOnLoad(transform.gameObject);
         cameraObject = GameObject.Find("Main Camera");
         balloonObject = GameObject.Find("Balloon");
-        distanceText = GameObject.Find("DistanceFloatText").GetComponent<TextMesh>();
         animator = GameObject.Find("Player").GetComponent<Animator>();
         pointSound = balloonObject.GetComponent<AudioSource>();
         //Animation of the bird
@@ -41,8 +39,6 @@ public class DistanceCounter : MonoBehaviour {
             balloonObject.transform.position = new Vector3(cameraObject.transform.position.x, cameraObject.transform.position.y + 0.9f, cameraObject.transform.position.z - 2f);
 
             balloonObject.transform.localScale = new Vector3(xScale, yScale, 0.08f);
-            //Display Text
-            distanceText.text = distance + " M";
         }
         //Every 50 meter speed up
         if (distance == interval - 50 && canSpeed == true)
