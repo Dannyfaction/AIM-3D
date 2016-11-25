@@ -4,14 +4,9 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-
     private float lives = 1;
     private Animator animator;
-    private float timer = 0;
     private Text timerText;
-    private float xScale = 0;
-    private float yScale = 0;
-    private int interval = 10;
     private GameObject cameraObject;
     private GameObject balloon;
     private ParticleSystem hitParticle;
@@ -23,7 +18,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         phpSender = GameObject.Find("Nameholder").GetComponent<PhpSender>();
-        boxCollider = GetComponent<BoxCollider>();
         hitSound = GetComponent<AudioSource>();
         shake = GameObject.Find("Main Camera").GetComponent<Shake>();
         hitParticle = GetComponentInChildren<ParticleSystem>();
@@ -60,6 +54,7 @@ public class Player : MonoBehaviour
     //Once the player crashes into a tree
     void OnCollisionEnter(Collision collision)
     {
+        boxCollider = GetComponent<BoxCollider>();
         boxCollider.enabled = false;
         phpSender.startSendingProcess();
         hitSound.Play();

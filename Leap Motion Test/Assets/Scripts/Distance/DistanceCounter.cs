@@ -34,9 +34,12 @@ public class DistanceCounter : MonoBehaviour {
 	
 	void Update () {
         //Set Balloon with distance on top of screen
-        balloonObject.transform.position = new Vector3(cameraObject.transform.position.x,cameraObject.transform.position.y +0.9f,cameraObject.transform.position.z - 2f);
+        
         if (balloonObject != null)
         {
+            //Set Balloon with distance on top of screen
+            balloonObject.transform.position = new Vector3(cameraObject.transform.position.x, cameraObject.transform.position.y + 0.9f, cameraObject.transform.position.z - 2f);
+
             balloonObject.transform.localScale = new Vector3(xScale, yScale, 0.08f);
             //Display Text
             distanceText.text = distance + " M";
